@@ -1,0 +1,47 @@
+﻿[2015.09.26-11.11.34:441][  0]Log file open, 09/26/15 15:11:34
+[2015.09.26-11.11.34:441][  0]LogInit:Display: Running engine for game: Mount
+[2015.09.26-11.11.34:441][  0]LogInit:Display: RandInit(-1571424731) SRandInit(-1571424730).
+[2015.09.26-11.11.34:441][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.09.26-11.11.34:441][  0]LogStats: Stats thread started at 0.157292
+[2015.09.26-11.11.34:441][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.26-11.11.34:441][  0]LogInit: API Version: 2672455
+[2015.09.26-11.11.34:441][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.09.26-11.11.34:441][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.26-11.11.34:441][  0]LogInit: Build Configuration: Development
+[2015.09.26-11.11.34:441][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.26-11.11.34:441][  0]LogInit: Command line:  /Temp/Autosaves/Temp/UEDPCUntitled_1 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2015.09.26-11.11.34:441][  0]LogInit: Base directory: E:/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.26-11.11.34:441][  0]LogInit: Rocket: 1
+[2015.09.26-11.11.34:491][  0]LogInit: Using libcurl 7.41.0
+[2015.09.26-11.11.34:491][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.26-11.11.34:491][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.26-11.11.34:491][  0]LogInit:  - other features:
+[2015.09.26-11.11.34:491][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.26-11.11.34:491][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.26-11.11.34:491][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.26-11.11.34:491][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.26-11.11.34:491][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.26-11.11.34:491][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.26-11.11.34:491][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.26-11.11.34:491][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.26-11.11.34:491][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.26-11.11.34:491][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.26-11.11.34:540][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.26-11.11.34:550][  0]LogInit: Object subsystem initialized
+[2015.09.26-11.11.34:566][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.26-11.11.34:566][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.26-11.11.34:571][  0]LogInit: Computer: HOME-PC
+[2015.09.26-11.11.34:571][  0]LogInit: User: Dima
+[2015.09.26-11.11.34:571][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.09.26-11.11.34:571][  0]LogInit: High frequency timer resolution =3.092093 MHz
+[2015.09.26-11.11.34:571][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx)
+[2015.09.26-11.11.34:571][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.26-11.11.34:571][  0]LogMemory: Process Physical Memory: 51.62 MB used, 51.62 MB peak
+[2015.09.26-11.11.34:571][  0]LogMemory: Process Virtual Memory: 54.76 MB used, 54.76 MB peak
+[2015.09.26-11.11.34:571][  0]LogMemory: Physical Memory: 3605.42 MB used, 6142.05 MB total
+[2015.09.26-11.11.34:571][  0]LogMemory: Virtual Memory: 341.67 MB used, 134217728.00 MB total
+[2015.09.26-11.11.34:775][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.26-11.11.35:887][  0]LogD3D11RHI: Found D3D11 adapter 0: ATI Radeon HD 4800 Series (Engineering Sample - WDDM v1.1) (Feature Level 10_0)
+[2015.09.26-11.11.35:887][  0]LogD3D11RHI: Adapter has 1014MB of dedicated video memory, 0MB of dedicated system memory, and 2816MB of shared system memory, 1 output[s]
+[2015.09.26-11.11.35:889][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.26-11.11.35:889][ 
