@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>3764</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>Mount</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.9.1-2689999+++depot+UE4-Releases+4.9</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<DefaultLocale>ru_RU</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>E:/Epic Games/4.9/Engine/Binaries/Win64/</BaseDir>
+<RootDir>E:/Epic Games/4.9/</RootDir>
+<MachineId>43B2B92F40FD89F5F59B00A7DD5B4531</MachineId>
+<EpicAccountId>ad35640b2cea4448bd26c779f4aa1f40</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Renderer\Private\ShaderBaseClasses.cpp] [Line: 158] 
+TBasePassVSFCachedPointIndirectLightingPolicy shader uniform expression set mismatch for material LandscapeMaterialInstanceConstant_168/M_Ground_Grass.
+Shader compilation info:                M_Ground_Grass
+Material render proxy compilation info: Compiling M_Ground_Grass: Platform=PCD3D_SM4, Usage=LightingModel=MSM_DefaultLit, BlendMode=BLEND_Opaque, SpecialEngine=0, TwoSided=0, TSNormal=1, InjectEmissiveIntoLPV=0, Masked=0, Distorted=0, BlockGI=0, Usage={bUsedWithStaticLighting,bUsedWithLandscape}
+Shader uniform expression set:   11 vectors, 0 scalars, 4 2D textures, 0 cube textures, 0 scalars/frame, 0 vectors/frame, shader map 000000FADF67D080
+Material uniform expression set: 11 vectors, 0 scalars, 4 2D textures, 0 cube textures, 0 scalars/frame, 0 vectors/frame, shader map 000000FAE7B1F880
+
+</ErrorMessage>
+<MiscNumberOfCores>2</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>2</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM)2 Duo CPU     E8500  @ 3.16GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>ATI Radeon HD 4800 Series (Engineering Sample - WDDM v1.1)</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 8.1</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>6440407040</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>6</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>3504418816</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140735895269376</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>1045622784</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>1047482368</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>959062016</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>961826816</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>

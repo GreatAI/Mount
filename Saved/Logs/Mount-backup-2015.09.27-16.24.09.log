@@ -1,0 +1,1060 @@
+﻿[2015.09.26-20.29.55:644][  0]Log file open, 09/27/15 00:29:55
+[2015.09.26-20.29.55:644][  0]LogInit:Display: Running engine for game: Mount
+[2015.09.26-20.29.55:644][  0]LogInit:Display: RandInit(1122430585) SRandInit(1122430586).
+[2015.09.26-20.29.55:644][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.09.26-20.29.55:644][  0]LogStats: Stats thread started at 0.067031
+[2015.09.26-20.29.55:644][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.26-20.29.55:644][  0]LogInit: API Version: 2672455
+[2015.09.26-20.29.55:644][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.09.26-20.29.55:644][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.26-20.29.55:644][  0]LogInit: Build Configuration: Development
+[2015.09.26-20.29.55:644][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.26-20.29.55:644][  0]LogInit: Command line: 
+[2015.09.26-20.29.55:644][  0]LogInit: Base directory: E:/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.26-20.29.55:644][  0]LogInit: Rocket: 1
+[2015.09.26-20.29.55:655][  0]LogInit: Using libcurl 7.41.0
+[2015.09.26-20.29.55:655][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.26-20.29.55:655][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.26-20.29.55:655][  0]LogInit:  - other features:
+[2015.09.26-20.29.55:655][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.26-20.29.55:655][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.26-20.29.55:655][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.26-20.29.55:655][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.26-20.29.55:655][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.26-20.29.55:655][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.26-20.29.55:655][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.26-20.29.55:655][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.26-20.29.55:655][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.26-20.29.55:655][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.26-20.29.55:666][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.26-20.29.55:677][  0]LogInit: Object subsystem initialized
+[2015.09.26-20.29.55:679][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.26-20.29.55:679][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.26-20.29.55:690][  0]LogInit: Computer: HOME-PC
+[2015.09.26-20.29.55:690][  0]LogInit: User: Dima
+[2015.09.26-20.29.55:690][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.09.26-20.29.55:690][  0]LogInit: High frequency timer resolution =3.092096 MHz
+[2015.09.26-20.29.55:690][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx)
+[2015.09.26-20.29.55:690][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.26-20.29.55:690][  0]LogMemory: Process Physical Memory: 52.03 MB used, 52.03 MB peak
+[2015.09.26-20.29.55:690][  0]LogMemory: Process Virtual Memory: 56.66 MB used, 56.66 MB peak
+[2015.09.26-20.29.55:690][  0]LogMemory: Physical Memory: 2391.31 MB used, 6142.05 MB total
+[2015.09.26-20.29.55:690][  0]LogMemory: Virtual Memory: 343.60 MB used, 134217728.00 MB total
+[2015.09.26-20.29.55:720][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2015.09.26-20.29.56:697][  0]LogD3D11RHI: Found D3D11 adapter 0: ATI Radeon HD 4800 Series (Engineering Sample - WDDM v1.1) (Feature Level 10_0)
+[2015.09.26-20.29.56:697][  0]LogD3D11RHI: Adapter has 1014MB of dedicated video memory, 0MB of dedicated system memory, and 2816MB of shared system memory, 1 output[s]
+[2015.09.26-20.29.56:698][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.26-20.29.56:698][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.26-20.29.56:698][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.26-20.29.56:702][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.26-20.29.56:702][  0]LogRHI: Texture pool is 710 MB (70% of 1014 MB)
+[2015.09.26-20.29.56:730][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.26-20.29.56:735][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Unreal Projects/Mount/Intermediate/Shaders/WorkingDirectory/3408/).
+[2015.09.26-20.29.56:735][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Unreal Projects/Mount/Intermediate/Shaders/tmp/3CABF4E34FED200542FD45A5B74A59B9/'.
+[2015.09.26-20.29.56:735][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.26-20.29.59:341][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.26-20.29.59:348][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.26-20.29.59:356][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.26-20.29.59:363][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.26-20.29.59:370][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.26-20.29.59:374][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.26-20.29.59:379][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.26-20.29.59:383][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.26-20.29.59:388][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.26-20.29.59:393][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.26-20.29.59:398][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.26-20.29.59:402][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.26-20.29.59:403][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.26-20.29.59:422][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.26-20.29.59:426][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.26-20.29.59:430][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.26-20.29.59:434][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.26-20.29.59:434][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.26-20.29.59:533][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.26-20.29.59:613][  0]LogDerivedDataCache: Loaded boot cache 0.08s 36MB C:/Users/Dima/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.26-20.29.59:613][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dima/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.26-20.29.59:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/Mount/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.26-20.29.59:613][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.26-20.29.59:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/Mount/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.26-20.29.59:613][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.26-20.29.59:774][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.26-20.29.59:786][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dima/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.26-20.30.00:018][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.26-20.30.00:022][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.26-20.30.00:159][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.26-20.30.00:159][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.26-20.30.00:485][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.26-20.30.01:379][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.26-20.30.01:499][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.09.26-20.30.01:692][  0]SourceControl: Info Source control is disabled
+[2015.09.26-20.30.01:701][  0]SourceControl: Info Source control is disabled
+[2015.09.26-20.30.01:713][  0]SourceControl: Info Source control is disabled
+[2015.09.26-20.30.01:726][  0]SourceControl: Info Source control is disabled
+[2015.09.26-20.30.01:907][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.26-20.30.02:005][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.26-20.30.02:005][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.09.26-20.30.02:075][  0]LogEngine: Initializing Engine...
+[2015.09.26-20.30.02:077][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.09.26-20.30.02:077][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.26-20.30.02:221][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.26-20.30.02:228][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.26-20.30.02:244][  0]LogInit: FAudioDevice initialized.
+[2015.09.26-20.30.02:278][  0]LogDerivedDataCache: Saved boot cache 0.03s 36MB C:/Users/Dima/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.26-20.30.02:295][  0]LogInit: Texture streaming: Enabled
+[2015.09.26-20.30.02:302][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.26-20.30.02:302][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.26-20.30.02:302][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 43b2b92f40fd89f5f59b00a7dd5b4531|ad35640b2cea4448bd26c779f4aa1f40|c2aa0f81-c9e6-4b47-aeb3-6305f92e1b8c
+[2015.09.26-20.30.02:302][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.26-20.30.02:311][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-20.30.02:324][  0]LogInit: Transaction tracking system initialized
+[2015.09.26-20.30.02:361][  0]BlueprintLog: New page: Editor Load
+[2015.09.26-20.30.02:456][  0]LocalizationService: Info Localization service is disabled
+[2015.09.26-20.30.02:553][  0]LogConsoleResponse:Display: 
+[2015.09.26-20.30.02:717][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.26-20.30.02:746][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Mount/Content/' took 0.01s
+[2015.09.26-20.30.02:823][  0]SourceControl: Info Source control is disabled
+[2015.09.26-20.31.02:409][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-20.31.02:413][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-20.31.04:444][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-20.31.04:453][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-20.31.04:458][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.09.26-20.31.04:459][  0]LogEditorServer:Warning: Can't find file 'D:/Unreal Projects/Mount/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.09.26-20.31.04:459][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.26-20.31.04:516][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.374ms to complete.
+[2015.09.26-20.31.04:516][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.062
+[2015.09.26-20.31.04:577][  0]LogCollectionManager: Loaded 0 collections in 0.002411 seconds
+[2015.09.26-20.31.04:621][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Mount/Saved/Collections/' took 0.01s
+[2015.09.26-20.31.04:621][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Mount/Content/Developers/Dima/Collections/' took 0.01s
+[2015.09.26-20.31.04:621][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Mount/Content/Collections/' took 0.01s
+[2015.09.26-20.31.04:621][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 1867 classes and 333 folders.
+[2015.09.26-20.31.04:627][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.09.26-20.31.04:635][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.09.26-20.31.04:686][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.09.26-20.31.04:691][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.09.26-20.31.04:754][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.26-20.31.04:756][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.26-20.31.04:779][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_200_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_a44_0///####STATCAT_Advanced####
+[2015.09.26-20.31.04:779][  0]LogLoad: Full Startup: 69.74 seconds (BP compile: 0.00 seconds)
+[2015.09.26-20.31.04:826][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.26-20.31.05:015][  2]LogRenderer: Reallocating scene render targets to support 828x388 (Frame:2).
+[2015.09.26-20.31.05:298][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.26-20.31.05:311][  2]LogAssetRegistry: Asset discovery search completed in 63.8246 seconds
+[2015.09.26-20.31.05:312][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
+[2015.09.26-20.31.09:974][503]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.26-20.31.10:806][503]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2015.09.26-20.31.18:617][302]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:473).
+[2015.09.26-20.31.21:314][531]LogAIModule: Creating AISystem for world GameMap
+[2015.09.26-20.31.21:328][531]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2015.09.26-20.31.21:414][531]Cmd: MAP LOAD FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.09.26-20.31.21:414][531]LightingResults: New page: Lighting Build
+[2015.09.26-20.31.21:418][531]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2015.09.26-20.31.21:435][531]LoadErrors: New page: Loading map: GameMap.umap
+[2015.09.26-20.31.21:435][531]MapCheck: New page: Map Check
+[2015.09.26-20.31.21:435][531]LightingResults: New page: Lighting Build
+[2015.09.26-20.31.21:484][531]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A122E77420
+[2015.09.26-20.31.21:527][531]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2015.09.26-20.31.21:592][531]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.26-20.31.21:629][531]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.26-20.31.21:693][531]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.848ms to complete.
+[2015.09.26-20.31.21:693][531]LogFileHelpers: Loading map 'GameMap' took 0.281
+[2015.09.26-20.31.21:736][532]Cmd: UpdateLandscapeEditorData -warnings
+[2015.09.26-20.31.21:739][532]Cmd: UpdateLandscapeEditorData
+[2015.09.26-20.31.22:653][575]LogAIModule: Creating AISystem for world MM_Map
+[2015.09.26-20.31.22:713][575]Cmd: MAP LOAD FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/MM_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.09.26-20.31.22:713][575]LightingResults: New page: Lighting Build
+[2015.09.26-20.31.22:730][575]LoadErrors: New page: Loading map: MM_Map.umap
+[2015.09.26-20.31.22:731][575]MapCheck: New page: Map Check
+[2015.09.26-20.31.22:731][575]LightingResults: New page: Lighting Build
+[2015.09.26-20.31.22:779][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A13152C400
+[2015.09.26-20.31.22:851][575]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.26-20.31.22:887][575]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.26-20.31.22:954][575]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.967ms to complete.
+[2015.09.26-20.31.22:954][575]LogFileHelpers: Loading map 'MM_Map' took 0.242
+[2015.09.26-20.31.22:982][576]Cmd: UpdateLandscapeEditorData
+[2015.09.26-20.31.24:090][654]LogAIModule: Creating AISystem for world GameMap
+[2015.09.26-20.31.24:094][654]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2015.09.26-20.31.24:159][654]Cmd: MAP LOAD FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.09.26-20.31.24:159][654]LightingResults: New page: Lighting Build
+[2015.09.26-20.31.24:176][654]LoadErrors: New page: Loading map: GameMap.umap
+[2015.09.26-20.31.24:176][654]MapCheck: New page: Map Check
+[2015.09.26-20.31.24:176][654]LightingResults: New page: Lighting Build
+[2015.09.26-20.31.24:224][654]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A13152C2C0
+[2015.09.26-20.31.24:265][654]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2015.09.26-20.31.24:328][654]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.26-20.31.24:366][654]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.26-20.31.24:431][654]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.996ms to complete.
+[2015.09.26-20.31.24:431][654]LogFileHelpers: Loading map 'GameMap' took 0.274
+[2015.09.26-20.31.24:458][655]Cmd: UpdateLandscapeEditorData -warnings
+[2015.09.26-20.31.24:460][655]Cmd: UpdateLandscapeEditorData
+[2015.09.26-20.31.25:898][731]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap' with GeneratedClass '/Game/StarterContent/Maps/GameMap.GameMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap'
+[2015.09.26-20.31.25:898][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.26-20.31.25:898][731]PIE: New page: PIE session: GameMap (Sep 27, 2015, 4:31:25 AM)
+[2015.09.26-20.31.25:898][731]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_GameMap
+[2015.09.26-20.31.25:914][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015755s)
+[2015.09.26-20.31.25:915][731]LogAIModule: Creating AISystem for world GameMap
+[2015.09.26-20.31.25:915][731]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2015.09.26-20.31.25:915][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/GameMap.GameMap to /Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap (0.016986s)
+[2015.09.26-20.31.25:973][731]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.26-20.31.25:979][731]LogInit: FAudioDevice initialized.
+[2015.09.26-20.31.26:022][731]LogWorld: Game class is 'GameMode'
+[2015.09.26-20.31.26:047][731]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2015.09.27-00.31.26
+[2015.09.26-20.31.26:047][731]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.26-20.31.26:047][731]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.26-20.31.26:047][731]LogWorld: Bringing up level for play took: 0.024928
+[2015.09.26-20.31.26:075][731]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_GameMap 1.031
+[2015.09.26-20.31.26:076][731]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap' with GeneratedClass '/Game/StarterContent/Maps/GameMap.GameMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap'
+[2015.09.26-20.31.26:128][732]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:881).
+[2015.09.26-20.31.28:225][844]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap' with GeneratedClass '/Game/StarterContent/Maps/GameMap.GameMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap'
+[2015.09.26-20.31.28:277][844]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap' with GeneratedClass '/Game/StarterContent/Maps/GameMap.GameMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap'
+[2015.09.26-20.31.28:327][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A108DF6200
+[2015.09.26-20.31.30:094][934]MapCheck: New page: Map Check
+[2015.09.26-20.31.30:106][934]Cmd: MAP REBUILD ALLVISIBLE
+[2015.09.26-20.31.30:113][934]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.09.26-20.31.30:226][934]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2015.09.26-20.31.30:280][934]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.09.26-20.31.30:280][934]LogStats:          STAT_HLOD_BuildClusters - 52.361 ms
+[2015.09.26-20.31.30:294][934]LightingResults: New page: Lighting Build - Sep 27, 2015, 4:31:30 AM
+[2015.09.26-20.31.43:697][934]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2015.09.26-20.31.43:697][934]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.09.26-20.31.43:697][934]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.09.26-20.31.43:697][934]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.09.26-20.31.43:697][934]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.09.26-20.31.43:697][934]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.09.26-20.31.44:216][934]LogEditorBuildUtils: Build time 0:00:14
+[2015.09.26-20.31.44:222][934]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_33, compiling. 
+[2015.09.26-20.31.44:231][934]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_33, compiling. 
+[2015.09.26-20.31.44:258][935]Cmd: UpdateLandscapeEditorData
+[2015.09.26-20.31.44:264][935]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_166, compiling. 
+[2015.09.26-20.31.44:271][935]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_166, compiling. 
+[2015.09.26-20.31.44:853][952]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.09.26-20.31.44:860][952]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.09.26-20.31.55:644][149]Job has failed! Job is closed while Tasks are still PENDING
+[2015.09.26-20.32.21:568][868]LogAIModule: Creating AISystem for world MM_Map
+[2015.09.26-20.32.21:628][868]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1293EE660
+[2015.09.26-20.32.24:349][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.26-20.32.24:641][868]LogSavePackage: Save=232.509918ms
+[2015.09.26-20.32.24:641][868]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMap1DCC305E42A3069E2A42069D52624FC4.tmp' to 'D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap'
+[2015.09.26-20.32.24:643][868]LogSavePackage: Total save time: 241.335973ms
+[2015.09.26-20.32.24:643][868]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap
+[2015.09.26-20.32.24:678][868]LogFileHelpers: Saving map 'GameMap' took 0.401
+[2015.09.26-20.32.24:679][868]Cmd: MAP LOAD FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/MM_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.09.26-20.32.24:680][868]LightingResults: New page: Lighting Build
+[2015.09.26-20.32.24:697][868]LoadErrors: New page: Loading map: MM_Map.umap
+[2015.09.26-20.32.24:697][868]MapCheck: New page: Map Check
+[2015.09.26-20.32.24:697][868]LightingResults: New page: Lighting Build
+[2015.09.26-20.32.24:748][868]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A128D81F80
+[2015.09.26-20.32.24:833][868]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.26-20.32.24:871][868]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.26-20.32.24:937][868]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.669ms to complete.
+[2015.09.26-20.32.24:937][868]LogFileHelpers: Loading map 'MM_Map' took 0.259
+[2015.09.26-20.32.24:964][869]Cmd: UpdateLandscapeEditorData
+[2015.09.26-20.32.31:335][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel.MM_Map' with GeneratedClass '/Game/StarterContent/Maps/MM_Map.MM_Map_C' with ClassGeneratedBy '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel.MM_Map'
+[2015.09.26-20.32.31:335][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.26-20.32.31:335][317]PIE: New page: PIE session: MM_Map (Sep 27, 2015, 4:32:31 AM)
+[2015.09.26-20.32.31:335][317]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_MM_Map
+[2015.09.26-20.32.31:341][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005193s)
+[2015.09.26-20.32.31:341][317]LogAIModule: Creating AISystem for world MM_Map
+[2015.09.26-20.32.31:342][317]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2015.09.26-20.32.31:342][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/MM_Map.MM_Map to /Game/StarterContent/Maps/UEDPIE_0_MM_Map.MM_Map (0.006402s)
+[2015.09.26-20.32.31:400][317]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.26-20.32.31:406][317]LogInit: FAudioDevice initialized.
+[2015.09.26-20.32.31:438][317]LogWorld: Game class is 'MM_GameMode_C'
+[2015.09.26-20.32.31:440][317]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_MM_Map.MM_Map up for play (max tick rate 0) at 2015.09.27-00.32.31
+[2015.09.26-20.32.31:440][317]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_MM_Map.MM_Map:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.26-20.32.31:440][317]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_MM_Map.MM_Map:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.26-20.32.31:441][317]LogWorld: Bringing up level for play took: 0.002062
+[2015.09.26-20.32.31:473][317]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_MM_Map 0.429
+[2015.09.26-20.32.31:474][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel.MM_Map' with GeneratedClass '/Game/StarterContent/Maps/MM_Map.MM_Map_C' with ClassGeneratedBy '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel.MM_Map'
+[2015.09.26-20.32.35:758][571]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve GameMap.umap.
+[2015.09.26-20.32.35:845][572]LogPackageName: SearchForPackageOnDisk took   0.072s to resolve GameMap.umap.
+[2015.09.26-20.32.35:845][572]LogNet: Browse: /Game/StarterContent/Maps/GameMap
+[2015.09.26-20.32.35:846][572]LogLoad: LoadMap: /Game/StarterContent/Maps/GameMap
+[2015.09.26-20.32.35:897][572]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1349D9EE0
+[2015.09.26-20.32.35:902][572]Cmd: MEM
+[2015.09.26-20.32.35:955][572]LogMemory: Platform Memory Stats for Windows
+[2015.09.26-20.32.35:955][572]LogMemory: Process Physical Memory: 759.70 MB used, 762.05 MB peak
+[2015.09.26-20.32.35:955][572]LogMemory: Process Virtual Memory: 734.56 MB used, 738.63 MB peak
+[2015.09.26-20.32.35:955][572]LogMemory: Physical Memory: 2619.28 MB used, 6142.05 MB total
+[2015.09.26-20.32.35:955][572]LogMemory: Virtual Memory: 1755.39 MB used, 134217728.00 MB total
+[2015.09.26-20.32.35:955][572]LogMemory: 
+[2015.09.26-20.32.35:955][572]Allocator Stats for TBB: (not implemented)
+[2015.09.26-20.32.36:555][572]LogAIModule: Creating AISystem for world GameMap
+[2015.09.26-20.32.36:555][572]LogWorld: Game class is 'GameMode'
+[2015.09.26-20.32.36:574][572]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2015.09.26-20.32.36:575][572]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2015.09.27-00.32.36
+[2015.09.26-20.32.36:575][572]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.26-20.32.36:575][572]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.26-20.32.36:576][572]LogWorld: Bringing up level for play took: 0.019719
+[2015.09.26-20.32.46:954][ 86]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel.MM_Map' with GeneratedClass '/Game/StarterContent/Maps/MM_Map.MM_Map_C' with ClassGeneratedBy '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel.MM_Map'
+[2015.09.26-20.32.47:011][ 86]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel.MM_Map' with GeneratedClass '/Game/StarterContent/Maps/MM_Map.MM_Map_C' with ClassGeneratedBy '/Game/StarterContent/Maps/MM_Map.MM_Map:PersistentLevel.MM_Map'
+[2015.09.26-20.32.47:105][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A15578D4E0
+[2015.09.26-20.32.51:027][349]LogAIModule: Creating AISystem for world GameMap
+[2015.09.26-20.32.51:032][349]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2015.09.26-20.32.51:098][349]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A12C3D9440
+[2015.09.26-20.32.51:098][349]Cmd: MAP LOAD FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.09.26-20.32.51:098][349]LightingResults: New page: Lighting Build
+[2015.09.26-20.32.51:115][349]LoadErrors: New page: Loading map: GameMap.umap
+[2015.09.26-20.32.51:115][349]MapCheck: New page: Map Check
+[2015.09.26-20.32.51:115][349]LightingResults: New page: Lighting Build
+[2015.09.26-20.32.51:165][349]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A128C293A0
+[2015.09.26-20.32.51:209][349]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BP_Sky_Sphere_C_2.Sky Sphere mesh
+Current X=0.000000 Y=0.000000 Z=0.000000 Cached X=0.000000 Y=0.000000 Z=0.000000
+[2015.09.26-20.32.51:275][349]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.26-20.32.51:315][349]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.26-20.32.51:384][349]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.827ms to complete.
+[2015.09.26-20.32.51:384][349]LogFileHelpers: Loading map 'GameMap' took 0.288
+[2015.09.26-20.32.51:410][350]Cmd: UpdateLandscapeEditorData -warnings
+[2015.09.26-20.32.51:413][350]Cmd: UpdateLandscapeEditorData
+[2015.09.26-20.33.18:194][756]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.26-20.33.20:609][875]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.26-20.33.21:797][930]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.09.26-20.33.24:073][ 43]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.26-20.33.25:189][ 97]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.26-20.33.26:579][162]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.26-20.33.35:853][615]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.09.26-20.33.40:559][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.26-20.33.40:861][854]LogSavePackage: Save=247.339020ms
+[2015.09.26-20.33.40:862][854]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMapF314A07D4E2DEDA738C0C29FB902EF05.tmp' to 'D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap'
+[2015.09.26-20.33.40:863][854]LogSavePackage: Total save time: 250.868343ms
+[2015.09.26-20.33.40:863][854]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap
+[2015.09.26-20.33.50:441][393]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.09.26-20.33.50:607][398]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2015.09.26-20.34.01:896][ 10]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2015.09.26-20.34.02:464][ 49]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.09.26-20.34.13:820][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2015.09.26-20.34.13:821][663]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.09.26-20.35.02:209][391]LogEditorActor: Deleted Actor: Landscape
+[2015.09.26-20.35.02:270][391]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2015.09.26-20.35.02:281][392]Cmd: UpdateLandscapeEditorData
+[2015.09.26-20.35.03:226][458]LogEditorActor: Deleted Actor: LandscapeGizmoActiveActor
+[2015.09.26-20.35.03:282][458]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2015.09.26-20.35.08:168][790]LogTexture:Display: Building textures: Texture2D_3 (G8)
+[2015.09.26-20.35.30:977][106]LogEditorViewport: Clicking Background
+[2015.09.26-20.35.32:937][212]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.09.26-20.35.38:697][450]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.09.26-20.35.38:723][450]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.09.26-20.35.38:758][450]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.09.26-20.35.38:782][450]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.09.26-20.35.38:805][450]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.09.26-20.35.38:828][450]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.09.26-20.35.38:855][450]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.09.26-20.35.38:879][450]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.09.26-20.35.38:904][450]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2015.09.26-20.35.38:929][450]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2015.09.26-20.35.38:957][450]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2015.09.26-20.35.38:985][450]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2015.09.26-20.35.39:008][450]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2015.09.26-20.35.39:033][450]LogTexture:Display: Building textures: Texture2D_18 (BGRA8)
+[2015.09.26-20.35.39:059][450]LogTexture:Display: Building textures: Texture2D_19 (BGRA8)
+[2015.09.26-20.35.39:085][450]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2015.09.26-20.35.39:467][451]Cmd: UpdateLandscapeEditorData
+[2015.09.26-20.36.10:123][943]LogEditorActor: Deleted Actor: Landscape
+[2015.09.26-20.36.10:301][943]LogEditorActor: Deleted 1 Actors (0.178 secs)
+[2015.09.26-20.36.10:311][944]Cmd: UpdateLandscapeEditorData
+[2015.09.26-20.36.11:191][  6]LogEditorActor: Deleted Actor: PostProcessVolume
+[2015.09.26-20.36.11:263][  6]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2015.09.26-20.36.12:542][ 94]Cmd: TRANSACTION UNDO
+[2015.09.26-20.36.12:542][ 94]LogEditorTransaction: Undo Delete selection
+[2015.09.26-20.36.13:388][145]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.09.26-20.36.15:532][284]LogTexture:Display: Building textures: Texture2D_21 (G8)
+[2015.09.26-20.36.28:391][937]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2015.09.26-20.36.28:418][937]LogTexture:Display: Building textures: Texture2D_23 (BGRA8)
+[2015.09.26-20.36.28:444][937]LogTexture:Display: Building textures: Texture2D_24 (BGRA8)
+[2015.09.26-20.36.28:470][937]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2015.09.26-20.36.28:495][937]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2015.09.26-20.36.28:523][937]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2015.09.26-20.36.28:545][937]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2015.09.26-20.36.28:572][937]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2015.09.26-20.36.28:600][937]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2015.09.26-20.36.28:622][937]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2015.09.26-20.36.28:646][937]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2015.09.26-20.36.28:677][937]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2015.09.26-20.36.28:702][937]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2015.09.26-20.36.28:726][937]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2015.09.26-20.36.28:750][937]LogTexture:Display: Building textures: Texture2D_36 (BGRA8)
+[2015.09.26-20.36.28:777][937]LogTexture:Display: Building textures: Texture2D_37 (BGRA8)
+[2015.09.26-20.36.29:116][938]Cmd: UpdateLandscapeEditorData
+[2015.09.26-20.39.53:494][890]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.09.26-20.40.02:082][363]Cmd: TRANSACTION UNDO
+[2015.09.26-20.40.02:082][363]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.09.26-20.40.03:365][411]Cmd: TRANSACTION UNDO
+[2015.09.26-20.40.03:365][411]LogEditorTransaction: Undo Landscape Editing: Add ramp
+[2015.09.26-20.40.03:404][411]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2015.09.26-20.41.21:448][470]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.09.26-20.41.52:675][ 84]Cmd: TRANSACTION UNDO
+[2015.09.26-20.41.52:675][ 84]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.09.26-20.41.53:887][142]Cmd: TRANSACTION UNDO
+[2015.09.26-20.41.53:887][142]LogEditorTransaction: Undo Landscape Editing: Add ramp
+[2015.09.26-20.43.12:566][443]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.09.26-20.43.20:484][836]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.43.24:162][995]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2015.09.26-20.43.24:168][995]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-20.43.24:284][995]LogEditorActor: Deleted 2 Actors (0.125 secs)
+[2015.09.26-20.43.24:316][996]Cmd: UpdateLandscapeEditorData
+[2015.09.26-20.43.27:011][141]Cmd: TRANSACTION UNDO
+[2015.09.26-20.43.27:011][141]LogEditorTransaction: Undo Delete selection
+[2015.09.26-20.43.34:899][539]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.09.26-20.43.37:117][656]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-20.43.37:178][656]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2015.09.26-20.44.02:721][942]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.44.03:136][963]Cmd: MODE GRID=0
+[2015.09.26-20.44.03:660][992]Cmd: MODE GRID=1
+[2015.09.26-20.44.21:555][892]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.44.26:237][128]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.44.41:726][910]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.09.26-20.44.42:512][982]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.44.58:476][734]Cmd: EDIT COPY
+[2015.09.26-20.45.34:960][896]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.45.49:263][557]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.45.59:980][178]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.46.15:319][843]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.46.20:388][ 81]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.46.42:488][106]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.46.49:124][385]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.46.52:768][531]Cmd: EDIT COPY
+[2015.09.26-20.47.12:938][470]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.47.13:670][501]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.47.14:193][523]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.47.18:697][731]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.47.20:773][824]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.47.21:581][859]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.47.21:934][872]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape2)
+[2015.09.26-20.47.25:736][ 48]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.47.28:597][175]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.47.37:356][582]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.47.46:252][994]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.48.05:297][903]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush12)
+[2015.09.26-20.48.05:485][909]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush12)
+[2015.09.26-20.48.08:667][ 68]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.48.41:120][481]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush12)
+[2015.09.26-20.48.41:651][501]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush12)
+[2015.09.26-20.48.45:316][652]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.48.59:206][253]Cmd: DELETE
+[2015.09.26-20.48.59:206][253]Cmd: ACTOR DELETE
+[2015.09.26-20.48.59:210][253]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-20.48.59:293][253]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2015.09.26-20.49.00:584][307]Cmd: DELETE
+[2015.09.26-20.49.00:584][307]Cmd: ACTOR DELETE
+[2015.09.26-20.49.00:587][307]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-20.49.00:676][307]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2015.09.26-20.50.05:482][316]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.50.30:611][495]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.50.36:604][678]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.50.38:924][749]LogEditorViewport: Clicking Background
+[2015.09.26-20.50.43:394][ 18]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.51.16:380][397]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.51.23:467][724]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.51.33:874][119]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.51.59:736][323]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.53.13:085][588]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.09.26-20.53.13:965][649]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.53.49:746][314]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.55.02:381][675]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.55.22:663][687]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.55.38:881][341]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.55.45:404][585]LogEditorViewport: Clicking Background
+[2015.09.26-20.55.52:319][904]LogEditorViewport: Clicking Background
+[2015.09.26-20.56.01:727][338]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.56.14:770][810]LogEditorViewport: Clicking Background
+[2015.09.26-20.57.28:236][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.09.26-20.57.28:342][246]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2015.09.26-20.57.28:372][246]LogTexture:Display: Building textures: Texture2D_36 (BGRA8)
+[2015.09.26-20.57.28:396][246]LogTexture:Display: Building textures: Texture2D_37 (BGRA8)
+[2015.09.26-20.57.30:772][246]LogSavePackage: Save=2529.440918ms
+[2015.09.26-20.57.30:772][246]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMap_Auto102596BD4426263D393497B82ABD97A35.tmp' to 'D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto1.umap'
+[2015.09.26-20.57.30:774][246]LogSavePackage: Total save time: 2537.039276ms
+[2015.09.26-20.57.30:774][246]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto1.umap
+[2015.09.26-20.57.30:777][246]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/GameMap' took 2.619
+[2015.09.26-20.57.30:777][246]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.619
+[2015.09.26-20.58.35:603][834]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.58.58:203][827]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.59.08:117][196]LogEditorViewport: Clicking Background
+[2015.09.26-20.59.32:664][161]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.59.42:515][501]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-20.59.47:200][726]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.00.01:811][306]Cmd: DELETE
+[2015.09.26-21.00.01:811][306]Cmd: ACTOR DELETE
+[2015.09.26-21.00.01:816][306]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.00.01:926][306]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2015.09.26-21.00.11:136][742]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.00.13:689][845]Cmd: DELETE
+[2015.09.26-21.00.13:689][845]Cmd: ACTOR DELETE
+[2015.09.26-21.00.13:693][845]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.00.13:795][845]LogEditorActor: Deleted 1 Actors (0.105 secs)
+[2015.09.26-21.00.13:975][850]Cmd: DELETE
+[2015.09.26-21.00.13:975][850]Cmd: ACTOR DELETE
+[2015.09.26-21.00.13:979][850]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.00.14:075][850]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2015.09.26-21.00.22:428][253]Cmd: DELETE
+[2015.09.26-21.00.22:428][253]Cmd: ACTOR DELETE
+[2015.09.26-21.00.22:432][253]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.00.22:531][253]LogEditorActor: Deleted 1 Actors (0.103 secs)
+[2015.09.26-21.00.43:856][141]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.00.50:967][390]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.02.33:616][352]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.09.26-21.03.06:702][735]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.03.20:220][268]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.03.28:302][649]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.09.26-21.04.31:680][469]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.04.45:744][123]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.04.54:098][497]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.05.01:637][825]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.05.16:885][502]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.05.38:324][410]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.05.39:227][429]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.09.26-21.05.42:572][549]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.05.54:388][ 12]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.06.03:160][342]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.06.49:255][421]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.06.55:419][727]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.07.10:807][498]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.07.14:786][690]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.07.24:002][ 67]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.07.27:945][229]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.07.33:758][465]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.07.51:891][133]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.09.26-21.08.09:495][897]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.09.26-21.08.28:227][777]Cmd: DELETE
+[2015.09.26-21.08.28:227][777]Cmd: ACTOR DELETE
+[2015.09.26-21.08.28:232][777]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.08.28:377][777]LogEditorActor: Deleted 1 Actors (0.149 secs)
+[2015.09.26-21.09.18:271][435]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.09.26-21.09.31:371][172]Cmd: BRUSH MERGEPOLYS
+[2015.09.26-21.09.35:743][533]Cmd: MAP SETBRUSH CLEARFLAGS=40 SETFLAGS=32
+[2015.09.26-21.09.37:320][632]Cmd: MAP SETBRUSH CLEARFLAGS=40 SETFLAGS=8
+[2015.09.26-21.09.38:991][729]Cmd: MAP SETBRUSH CLEARFLAGS=40 SETFLAGS=0
+[2015.09.26-21.10.30:512][502]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-21.10.30:512][502]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-21.10.36:961][840]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.09.26-21.10.55:187][752]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.10.56:600][818]Cmd: DELETE
+[2015.09.26-21.10.56:600][818]Cmd: ACTOR DELETE
+[2015.09.26-21.10.56:605][818]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.10.56:819][818]LogEditorActor: Deleted 1 Actors (0.218 secs)
+[2015.09.26-21.11.09:728][978]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-21.11.09:728][978]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-21.11.56:765][528]Cmd: DELETE
+[2015.09.26-21.11.56:765][528]Cmd: ACTOR DELETE
+[2015.09.26-21.11.56:770][528]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.11.56:931][528]LogEditorActor: Deleted 1 Actors (0.166 secs)
+[2015.09.26-21.12.25:595][814]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.12.44:599][686]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.14.14:396][ 45]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.14.15:160][ 77]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.14.21:377][381]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.09.26-21.14.22:132][430]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.14.36:065][  6]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.14.39:531][142]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.14.54:018][740]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.15.03:777][149]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.15.11:674][405]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.09.26-21.15.18:914][766]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.15.25:952][ 92]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.15.49:229][117]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.15.50:160][147]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.15.53:292][247]Cmd: DELETE
+[2015.09.26-21.15.53:292][247]Cmd: ACTOR DELETE
+[2015.09.26-21.15.53:297][247]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.15.53:524][247]LogEditorActor: Deleted 1 Actors (0.230 secs)
+[2015.09.26-21.16.11:982][911]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.16.15:844][ 32]Cmd: DELETE
+[2015.09.26-21.16.15:844][ 32]Cmd: ACTOR DELETE
+[2015.09.26-21.16.15:849][ 32]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.16.15:853][ 32]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.16.16:094][ 32]LogEditorActor: Deleted 2 Actors (0.249 secs)
+[2015.09.26-21.16.45:443][112]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.16.58:326][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.26-21.17.03:507][634]LogSavePackage: Save=5045.480469ms
+[2015.09.26-21.17.03:507][634]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMap2FB5BD50457BE3F6922D3D9C42FD43D3.tmp' to 'D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap'
+[2015.09.26-21.17.03:511][634]LogSavePackage: Total save time: 5069.649197ms
+[2015.09.26-21.17.03:511][634]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap
+[2015.09.26-21.17.08:060][815]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap' with GeneratedClass '/Game/StarterContent/Maps/GameMap.GameMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap'
+[2015.09.26-21.17.08:060][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.26-21.17.08:060][815]PIE: New page: PIE session: GameMap (Sep 27, 2015, 5:17:08 AM)
+[2015.09.26-21.17.08:060][815]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_GameMap
+[2015.09.26-21.17.08:318][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.257456s)
+[2015.09.26-21.17.08:319][815]LogAIModule: Creating AISystem for world GameMap
+[2015.09.26-21.17.08:319][815]LogPlayLevel: PIE: World Init took: (0.001576s)
+[2015.09.26-21.17.08:319][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/GameMap.GameMap to /Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap (0.259302s)
+[2015.09.26-21.17.08:517][815]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.26-21.17.08:523][815]LogInit: FAudioDevice initialized.
+[2015.09.26-21.17.08:556][815]LogWorld: Game class is 'GameMode'
+[2015.09.26-21.17.08:811][815]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 0) at 2015.09.27-01.17.08
+[2015.09.26-21.17.08:811][815]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.26-21.17.08:811][815]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_GameMap.GameMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.26-21.17.08:814][815]LogWorld: Bringing up level for play took: 0.242783
+[2015.09.26-21.17.08:848][815]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_GameMap -0.197
+[2015.09.26-21.17.08:848][815]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap' with GeneratedClass '/Game/StarterContent/Maps/GameMap.GameMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap'
+[2015.09.26-21.18.35:885][138]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap' with GeneratedClass '/Game/StarterContent/Maps/GameMap.GameMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap'
+[2015.09.26-21.18.35:968][138]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap' with GeneratedClass '/Game/StarterContent/Maps/GameMap.GameMap_C' with ClassGeneratedBy '/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.GameMap'
+[2015.09.26-21.18.36:039][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1789D96C0
+[2015.09.26-21.19.01:323][227]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.19.36:517][726]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.19.51:817][345]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.20.00:699][737]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush34)
+[2015.09.26-21.20.05:852][977]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.20.14:689][333]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.20.30:215][ 16]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.20.36:142][273]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.20.40:024][437]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.20.50:000][859]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.21.10:821][967]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.21.18:920][458]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.22.26:865][779]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.22.32:770][  4]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.23.00:086][ 36]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.23.04:691][165]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.23.10:322][339]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.24.22:906][217]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.24.25:805][331]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.24.42:150][  8]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.26.18:651][591]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.26.59:506][448]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.27.12:847][  3]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.27.22:871][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.26-21.27.41:085][444]LogSavePackage: Save=18109.320313ms
+[2015.09.26-21.27.41:085][444]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMapC5798DFE49BA4278D94F59810C598DB6.tmp' to 'D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap'
+[2015.09.26-21.27.41:091][444]LogSavePackage: Total save time: 18134.378750ms
+[2015.09.26-21.27.41:091][444]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap
+[2015.09.26-21.28.53:655][489]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.29.16:322][732]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.30.03:631][971]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.30.08:382][184]Cmd: DELETE
+[2015.09.26-21.30.08:382][184]Cmd: ACTOR DELETE
+[2015.09.26-21.30.08:386][184]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.30.08:391][184]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-21.30.09:031][184]LogEditorActor: Deleted 2 Actors (0.649 secs)
+[2015.09.26-21.30.24:193][675]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.30.44:333][327]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.31.03:851][115]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.31.12:601][462]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.31.16:466][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.26-21.31.41:276][623]LogSavePackage: Save=24733.921875ms
+[2015.09.26-21.31.41:276][623]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMapC74C81B04371562143B8BA9930457705.tmp' to 'D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap'
+[2015.09.26-21.31.41:282][623]LogSavePackage: Total save time: 24741.640944ms
+[2015.09.26-21.31.41:282][623]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap
+[2015.09.26-21.32.01:511][144]Cmd: STAT FPS
+[2015.09.26-21.32.03:071][258]Cmd: STAT FPS
+[2015.09.26-21.32.22:782][815]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.32.30:554][348]LogEditorViewport: Clicking Background
+[2015.09.26-21.41.07:073][153]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.41.35:071][420]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.42.23:935][738]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.43.26:518][902]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.43.26:724][906]Cmd: EDIT PASTE
+[2015.09.26-21.44.12:686][908]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.09.26-21.44.13:316][947]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.44.13:728][964]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.44.25:123][449]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.44.28:337][560]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.44.29:004][582]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.44.30:000][621]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.44.30:779][655]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.44.31:633][692]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.44.32:182][716]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.44.38:325][980]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.45.04:011][759]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-21.45.04:011][759]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-21.45.25:216][229]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.45.31:227][511]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.45.32:568][559]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.45.33:861][600]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.45.47:737][244]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.46.03:034][ 60]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.46.28:637][254]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.46.28:717][254]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.48.28:484][604]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-21.48.28:484][604]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-21.49.59:486][361]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.50.45:880][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.09.26-21.51.13:810][111]LogSavePackage: Save=27876.724609ms
+[2015.09.26-21.51.13:810][111]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMap_Auto2035A2061407B8124D840EBB6AFACD930.tmp' to 'D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto2.umap'
+[2015.09.26-21.51.13:812][111]LogSavePackage: Total save time: 27930.518653ms
+[2015.09.26-21.51.13:812][111]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto2.umap
+[2015.09.26-21.51.13:816][111]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/GameMap' took 28.056
+[2015.09.26-21.51.13:816][111]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 28.056
+[2015.09.26-21.54.39:343][886]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.54.54:990][543]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.55.10:432][270]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.55.15:452][451]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.55.19:889][609]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.55.27:553][903]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.55.30:158][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.26-21.56.00:417][ 10]LogSavePackage: Save=30178.792969ms
+[2015.09.26-21.56.00:417][ 10]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMap65CE64D34F63575E3FB731800ADF6A65.tmp' to 'D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap'
+[2015.09.26-21.56.00:422][ 10]LogSavePackage: Total save time: 30185.302138ms
+[2015.09.26-21.56.00:422][ 10]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap
+[2015.09.26-21.57.06:698][219]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.58.14:166][722]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-21.58.14:166][722]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-21.58.36:408][934]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.59.20:170][744]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-21.59.53:175][399]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.00.10:552][850]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.01.07:783][ 62]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.01.08:367][ 67]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.01.26:396][345]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.02.01:251][792]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.02.16:148][121]Cmd: DELETE
+[2015.09.26-22.02.16:148][121]Cmd: ACTOR DELETE
+[2015.09.26-22.02.16:153][121]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.02.18:279][121]LogEditorActor: Deleted 1 Actors (2.131 secs)
+[2015.09.26-22.02.33:793][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.26-22.04.15:929][378]LogSavePackage: Save=101970.875000ms
+[2015.09.26-22.04.15:929][378]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMapFB3F7C62409AFE53CCF327A1323355FF.tmp' to 'D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap'
+[2015.09.26-22.04.15:934][378]LogSavePackage: Total save time: 102027.841311ms
+[2015.09.26-22.04.15:934][378]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap
+[2015.09.26-22.04.23:428][405]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.04.40:836][163]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.04.49:745][500]Cmd: DELETE
+[2015.09.26-22.04.49:745][500]Cmd: ACTOR DELETE
+[2015.09.26-22.04.49:750][500]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.04.51:183][500]LogEditorActor: Deleted 1 Actors (1.438 secs)
+[2015.09.26-22.05.00:162][867]Cmd: DELETE
+[2015.09.26-22.05.00:162][867]Cmd: ACTOR DELETE
+[2015.09.26-22.05.00:166][867]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.00:171][867]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.01:517][867]LogEditorActor: Deleted 2 Actors (1.355 secs)
+[2015.09.26-22.05.02:669][916]Cmd: DELETE
+[2015.09.26-22.05.02:669][916]Cmd: ACTOR DELETE
+[2015.09.26-22.05.02:674][916]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.04:088][916]LogEditorActor: Deleted 1 Actors (1.419 secs)
+[2015.09.26-22.05.10:976][236]Cmd: DELETE
+[2015.09.26-22.05.10:976][236]Cmd: ACTOR DELETE
+[2015.09.26-22.05.10:980][236]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.12:181][236]LogEditorActor: Deleted 1 Actors (1.205 secs)
+[2015.09.26-22.05.13:005][272]Cmd: DELETE
+[2015.09.26-22.05.13:005][272]Cmd: ACTOR DELETE
+[2015.09.26-22.05.13:009][272]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.14:034][272]LogEditorActor: Deleted 1 Actors (1.029 secs)
+[2015.09.26-22.05.15:880][361]Cmd: DELETE
+[2015.09.26-22.05.15:880][361]Cmd: ACTOR DELETE
+[2015.09.26-22.05.15:885][361]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.17:266][361]LogEditorActor: Deleted 1 Actors (1.386 secs)
+[2015.09.26-22.05.17:766][382]Cmd: DELETE
+[2015.09.26-22.05.17:766][382]Cmd: ACTOR DELETE
+[2015.09.26-22.05.17:771][382]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.19:192][382]LogEditorActor: Deleted 1 Actors (1.425 secs)
+[2015.09.26-22.05.19:891][412]Cmd: DELETE
+[2015.09.26-22.05.19:891][412]Cmd: ACTOR DELETE
+[2015.09.26-22.05.19:896][412]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.21:292][412]LogEditorActor: Deleted 1 Actors (1.401 secs)
+[2015.09.26-22.05.27:614][693]Cmd: DELETE
+[2015.09.26-22.05.27:614][693]Cmd: ACTOR DELETE
+[2015.09.26-22.05.27:618][693]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.28:996][693]LogEditorActor: Deleted 1 Actors (1.382 secs)
+[2015.09.26-22.05.33:632][896]Cmd: DELETE
+[2015.09.26-22.05.33:632][896]Cmd: ACTOR DELETE
+[2015.09.26-22.05.33:637][896]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.33:641][896]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.34:546][896]LogEditorActor: Deleted 2 Actors (0.914 secs)
+[2015.09.26-22.05.44:232][385]Cmd: DELETE
+[2015.09.26-22.05.44:232][385]Cmd: ACTOR DELETE
+[2015.09.26-22.05.44:237][385]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.45:600][385]LogEditorActor: Deleted 1 Actors (1.367 secs)
+[2015.09.26-22.05.46:833][441]Cmd: DELETE
+[2015.09.26-22.05.46:833][441]Cmd: ACTOR DELETE
+[2015.09.26-22.05.46:838][441]LogEditorActor: Deleted Actor: Brush
+[2015.09.26-22.05.47:763][441]LogEditorActor: Deleted 1 Actors (0.930 secs)
+[2015.09.26-22.06.12:697][210]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.06.18:495][346]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.06.25:211][536]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.06.42:363][187]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.06.58:224][639]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.07.09:955][116]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.07.15:454][305]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.07.55:609][430]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.09.09:271][749]Cmd: TRANSACTION UNDO
+[2015.09.26-22.09.09:271][749]LogEditorTransaction: Undo Move Actors
+[2015.09.26-22.09.09:294][749]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2015.09.26-22.09.09:295][749]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BoxBrush24.BrushComponent0) Component already registered.
+[2015.09.26-22.09.09:295][749]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2015.09.26-22.09.09:302][749]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2015.09.26-22.09.09:303][749]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BoxBrush68.BrushComponent0) Component already registered.
+[2015.09.26-22.09.09:304][749]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BoxBrush66.BrushComponent0) Component already registered.
+[2015.09.26-22.09.09:304][749]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BoxBrush29.BrushComponent0) Component already registered.
+[2015.09.26-22.09.09:304][749]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BoxBrush28.BrushComponent0) Component already registered.
+[2015.09.26-22.09.09:305][749]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/GameMap.GameMap:PersistentLevel.BoxBrush32.BrushComponent0) Component already registered.
+[2015.09.26-22.09.10:834][749]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape2)
+[2015.09.26-22.09.11:966][775]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.09.27:099][389]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.10.35:771][ 47]Cmd: TRANSACTION UNDO
+[2015.09.26-22.10.35:771][ 47]LogEditorTransaction: Undo Snap Actors To Floor
+[2015.09.26-22.10.37:435][ 69]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.10.42:270][239]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.11.55:833][788]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.13.31:866][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.09.26-22.14.47:295][763]LogSavePackage: Save=75394.351563ms
+[2015.09.26-22.14.47:295][763]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMap_Auto34ABC1E9E499B1349ADFC61BF8C3250E6.tmp' to 'D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto3.umap'
+[2015.09.26-22.14.47:298][763]LogSavePackage: Total save time: 75429.043602ms
+[2015.09.26-22.14.47:298][763]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto3.umap
+[2015.09.26-22.14.47:300][763]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/GameMap' took 75.561
+[2015.09.26-22.14.47:300][763]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 75.561
+[2015.09.26-22.14.57:522][143]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.15.12:849][563]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.15.40:783][283]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.15.42:382][316]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.15.58:531][865]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.17.24:082][408]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.17.32:705][584]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.17.59:662][307]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.18.35:653][389]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.09.26-22.20.35:752][331]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.26-22.20.53:334][893]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.09.26-22.20.54:137][932]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.20.54:776][943]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.09.26-22.20.55:773][991]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.21.38:082][347]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.09.26-22.21.53:155][ 55]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush82)
+[2015.09.26-22.21.57:986][292]Cmd: EDIT COPY
+[2015.09.26-22.23.20:264][112]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush88)
+[2015.09.26-22.23.20:944][141]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush88)
+[2015.09.26-22.23.21:469][164]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush88)
+[2015.09.26-22.23.22:078][191]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush88)
+[2015.09.26-22.24.47:674][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.09.26-22.25.42:755][135]LogSavePackage: Save=55060.425781ms
+[2015.09.26-22.25.42:755][135]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMap_Auto4525DBB3647BC172755D8F99F4FB113CB.tmp' to 'D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto4.umap'
+[2015.09.26-22.25.42:757][135]LogSavePackage: Total save time: 55080.787271ms
+[2015.09.26-22.25.42:757][135]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Saved/Autosaves/Game/StarterContent/Maps/GameMap_Auto4.umap
+[2015.09.26-22.25.42:759][135]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/GameMap' took 55.234
+[2015.09.26-22.25.42:759][135]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 55.234
+[2015.09.26-22.26.29:193][851]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.26.30:829][917]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.26.42:173][263]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush50)
+[2015.09.26-22.26.43:924][340]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.26.50:691][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/GameMap" FILE="D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.26-22.27.47:842][547]LogSavePackage: Save=57014.710938ms
+[2015.09.26-22.27.47:842][547]LogSavePackage: Moving 'D:/Unreal Projects/Mount/Saved/GameMap1F29FD734DC4650C813CE0BAA990F902.tmp' to 'D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap'
+[2015.09.26-22.27.47:847][547]LogSavePackage: Total save time: 57021.693699ms
+[2015.09.26-22.27.47:847][547]LogSavePackage:Warning: Finished SavePackage D:/Unreal Projects/Mount/Content/StarterContent/Maps/GameMap.umap
+[2015.09.26-22.27.52:382][640]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.09.26-22.27.59:183][826]Cmd: QUIT_EDITOR
+[2015.09.26-22.27.59:430][826]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.26-22.27.59:657][826]LogExit: Preparing to exit.
+[2015.09.26-22.28.01:082][826]LogExit: Editor shut down
+[2015.09.26-22.28.01:083][826]LogExit: Transaction tracking system shut down
+[2015.09.26-22.28.01:084][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1288F5800
+[2015.09.26-22.28.01:153][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A12A3A7920
+[2015.09.26-22.28.01:155][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A12A3A6CA0
+[2015.09.26-22.28.01:164][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1320CC0E0
+[2015.09.26-22.28.01:167][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A15210B060
+[2015.09.26-22.28.01:170][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A128C2A480
+[2015.09.26-22.28.03:475][826]LogExit: Object subsystem successfully closed.
+[2015.09.26-22.28.04:079][826]LogD3D11RHI: Shutdown
+[2015.09.26-22.28.04:079][826]LogD3D11RHI: CleanupD3DDevice
+[2015.09.26-22.28.04:323][826]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.26-22.28.05:222][826]LogModuleManager: Shutting down and abandoning module StatsViewer (199)
+[2015.09.26-22.28.05:244][826]LogModuleManager: Shutting down and abandoning module SequencerWidgets (198)
+[2015.09.26-22.28.05:244][826]LogModuleManager: Shutting down and abandoning module BlueprintGraph (197)
+[2015.09.26-22.28.05:244][826]LogModuleManager: Shutting down and abandoning module CrashTracker (196)
+[2015.09.26-22.28.05:244][826]LogModuleManager: Shutting down and abandoning module SceneOutliner (195)
+[2015.09.26-22.28.05:244][826]LogModuleManager: Shutting down and abandoning module SuperSearch (194)
+[2015.09.26-22.28.05:244][826]LogModuleManager: Shutting down and abandoning module WidgetCarousel (193)
+[2015.09.26-22.28.05:244][826]LogModuleManager: Shutting down and abandoning module AddContentDialog (192)
+[2015.09.26-22.28.05:282][826]LogModuleManager: Shutting down and abandoning module EditorWidgets (191)
+[2015.09.26-22.28.05:282][826]LogModuleManager: Shutting down and abandoning module CollectionManager (190)
+[2015.09.26-22.28.05:299][826]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.09.26-22.28.05:299][826]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.09.26-22.28.05:324][826]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.09.26-22.28.05:324][826]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.09.26-22.28.05:324][826]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.09.26-22.28.05:324][826]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.09.26-22.28.05:324][826]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.09.26-22.28.05:324][826]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.09.26-22.28.05:337][826]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.09.26-22.28.05:337][826]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.09.26-22.28.05:337][826]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.09.26-22.28.05:337][826]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.09.26-22.28.05:353][826]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.09.26-22.28.05:377][826]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.09.26-22.28.05:403][826]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.09.26-22.28.05:403][826]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.09.26-22.28.05:409][826]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.09.26-22.28.05:409][826]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.09.26-22.28.06:289][826]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.09.26-22.28.06:289][826]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.09.26-22.28.06:289][826]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.09.26-22.28.06:289][826]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.09.26-22.28.06:323][826]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.09.26-22.28.06:324][826]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.09.26-22.28.06:336][826]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.09.26-22.28.06:336][826]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.09.26-22.28.06:352][826]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.09.26-22.28.06:359][826]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.09.26-22.28.06:359][826]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.09.26-22.28.06:359][826]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.09.26-22.28.06:381][826]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.09.26-22.28.06:381][826]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.09.26-22.28.06:382][826]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.09.26-22.28.06:387][826]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.09.26-22.28.06:387][826]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.09.26-22.28.06:387][826]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.09.26-22.28.06:387][826]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.09.26-22.28.06:416][826]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.09.26-22.28.06:416][826]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.09.26-22.28.06:441][826]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.09.26-22.28.06:460][826]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.09.26-22.28.06:470][826]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.09.26-22.28.06:483][826]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.09.26-22.28.06:484][826]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.09.26-22.28.06:497][826]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.09.26-22.28.06:513][826]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.09.26-22.28.06:529][826]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.09.26-22.28.06:549][826]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.09.26-22.28.06:549][826]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.09.26-22.28.06:564][826]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.09.26-22.28.06:564][826]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.09.26-22.28.06:589][826]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.09.26-22.28.06:601][826]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.09.26-22.28.06:601][826]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.09.26-22.28.06:603][826]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.09.26-22.28.06:603][826]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.09.26-22.28.06:613][826]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.09.26-22.28.06:614][826]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.09.26-22.28.06:622][826]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.09.26-22.28.06:642][826]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.09.26-22.28.06:642][826]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.09.26-22.28.06:654][826]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.09.26-22.28.06:663][826]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.09.26-22.28.06:663][826]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.09.26-22.28.06:663][826]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.09.26-22.28.06:680][826]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.09.26-22.28.06:680][826]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.09.26-22.28.06:680][826]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.09.26-22.28.06:781][826]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.09.26-22.28.06:805][826]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.09.26-22.28.06:805][826]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.09.26-22.28.06:805][826]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.09.26-22.28.06:805][826]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.09.26-22.28.06:805][826]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.09.26-22.28.06:805][826]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.09.26-22.28.06:805][826]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.09.26-22.28.06:860][826]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.09.26-22.28.06:872][826]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.09.26-22.28.06:872][826]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.09.26-22.28.06:872][826]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.09.26-22.28.06:890][826]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.09.26-22.28.06:899][826]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.09.26-22.28.06:899][826]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.09.26-22.28.06:899][826]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.09.26-22.28.06:905][826]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.09.26-22.28.06:905][826]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.09.26-22.28.06:915][826]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.09.26-22.28.06:925][826]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.09.26-22.28.06:925][826]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.09.26-22.28.06:931][826]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.09.26-22.28.06:940][826]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.09.26-22.28.06:948][826]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.09.26-22.28.06:959][826]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.09.26-22.28.06:959][826]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.09.26-22.28.06:972][826]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.09.26-22.28.06:977][826]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.09.26-22.28.06:977][826]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.09.26-22.28.07:295][826]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.26-22.28.07:311][826]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.09.26-22.28.07:311][826]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.09.26-22.28.07:367][826]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.09.26-22.28.07:371][826]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.09.26-22.28.07:541][826]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.09.26-22.28.07:542][826]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.09.26-22.28.07:566][826]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.09.26-22.28.07:667][826]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.26-22.28.07:667][826]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.26-22.28.07:687][826]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.26-22.28.07:703][826]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.26-22.28.07:703][826]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.26-22.28.07:877][826]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.26-22.28.07:877][826]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.26-22.28.07:877][826]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.26-22.28.07:877][826]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.26-22.28.07:960][826]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.26-22.28.07:960][826]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.26-22.28.08:020][826]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.26-22.28.08:020][826]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.26-22.28.08:020][826]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.26-22.28.08:020][826]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.26-22.28.08:056][826]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.26-22.28.08:056][826]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.26-22.28.08:056][826]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.26-22.28.08:056][826]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.26-22.28.08:073][826]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.26-22.28.08:073][826]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.26-22.28.08:073][826]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.26-22.28.08:073][826]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.26-22.28.08:073][826]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.26-22.28.08:073][826]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.26-22.28.08:073][826]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.26-22.28.08:073][826]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.26-22.28.08:086][826]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.26-22.28.08:097][826]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.26-22.28.08:534][826]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.26-22.28.08:546][826]LogDerivedDataCache: Shutdown
+[2015.09.26-22.28.08:549][826]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.26-22.28.08:567][826]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.26-22.28.08:595][826]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.26-22.28.08:608][826]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.26-22.28.08:608][826]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.26-22.28.08:638][826]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.26-22.28.08:698][826]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.26-22.28.08:698][826]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.26-22.28.08:698][826]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.26-22.28.08:698][826]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.26-22.28.08:699][826]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.26-22.28.08:715][826]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.26-22.28.08:796][826]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.26-22.28.08:832][826]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.26-22.28.08:832][826]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.26-22.28.08:904][826]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.26-22.28.08:950][826]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.26-22.28.08:951][826]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.26-22.28.08:951][826]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.26-22.28.08:951][826]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.26-22.28.09:012][826]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.26-22.28.09:025][826]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.26-22.28.09:033][826]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.26-22.28.09:057][826]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.26-22.28.09:066][826]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.26-22.28.09:075][826]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.26-22.28.09:087][826]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.26-22.28.09:087][826]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.26-22.28.09:099][826]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.26-22.28.09:107][826]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.26-22.28.09:116][826]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.26-22.28.09:147][826]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.26-22.28.09:147][826]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.26-22.28.09:147][826]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.26-22.28.09:147][826]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.26-22.28.09:147][826]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.26-22.28.10:150][826]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.26-22.28.10:168][826]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.26-22.28.10:168][826]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.26-22.28.10:168][826]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.26-22.28.10:168][826]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.26-22.28.10:168][826]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.26-22.28.10:215][826]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.26-22.28.10:241][826]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.26-22.28.10:241][826]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.26-22.28.10:241][826]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.26-22.28.10:241][826]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.26-22.28.10:241][826]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.26-22.28.10:241][826]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.26-22.28.10:246][826]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.26-22.28.10:267][826]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.26-22.28.10:289][826]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.26-22.28.10:308][826]LogExit: Exiting.
+[2015.09.26-22.28.10:316][826]Log file closed, 09/27/15 02:28:10
